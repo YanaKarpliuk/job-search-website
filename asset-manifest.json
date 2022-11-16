@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/job-search-website/static/css/main.6a7a39fa.css",
-    "main.js": "/job-search-website/static/js/main.e8647f4d.js",
+    "main.css": "/job-search-website/static/css/main.6dfbdfaa.css",
+    "main.js": "/job-search-website/static/js/main.e9b55211.js",
     "static/js/135.2a4debf7.chunk.js": "/job-search-website/static/js/135.2a4debf7.chunk.js",
-    "static/js/2.70b0f7bc.chunk.js": "/job-search-website/static/js/2.70b0f7bc.chunk.js",
+    "static/js/2.070ed885.chunk.js": "/job-search-website/static/js/2.070ed885.chunk.js",
     "static/js/949.d72d43eb.chunk.js": "/job-search-website/static/js/949.d72d43eb.chunk.js",
     "static/js/426.73be82b4.chunk.js": "/job-search-website/static/js/426.73be82b4.chunk.js",
     "static/media/share.svg": "/job-search-website/static/media/share.14f9ee50b9d134666b10f63dc344ff6b.svg",
@@ -15,15 +15,15 @@
     "static/media/bookmark-colored.svg": "/job-search-website/static/media/bookmark-colored.7db0a5d61e532619e82ec116cda599f5.svg",
     "static/media/star-colored.svg": "/job-search-website/static/media/star-colored.889dcbc0b176c4bbd8952e0eaaf630eb.svg",
     "static/media/carbon_close.svg": "/job-search-website/static/media/carbon_close.dbebf11ed721c90f7c3c4d0e42c61287.svg",
-    "main.6a7a39fa.css.map": "/job-search-website/static/css/main.6a7a39fa.css.map",
-    "main.e8647f4d.js.map": "/job-search-website/static/js/main.e8647f4d.js.map",
+    "main.6dfbdfaa.css.map": "/job-search-website/static/css/main.6dfbdfaa.css.map",
+    "main.e9b55211.js.map": "/job-search-website/static/js/main.e9b55211.js.map",
     "135.2a4debf7.chunk.js.map": "/job-search-website/static/js/135.2a4debf7.chunk.js.map",
-    "2.70b0f7bc.chunk.js.map": "/job-search-website/static/js/2.70b0f7bc.chunk.js.map",
+    "2.070ed885.chunk.js.map": "/job-search-website/static/js/2.070ed885.chunk.js.map",
     "949.d72d43eb.chunk.js.map": "/job-search-website/static/js/949.d72d43eb.chunk.js.map",
     "426.73be82b4.chunk.js.map": "/job-search-website/static/js/426.73be82b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a7a39fa.css",
-    "static/js/main.e8647f4d.js"
+    "static/css/main.6dfbdfaa.css",
+    "static/js/main.e9b55211.js"
   ]
 }
