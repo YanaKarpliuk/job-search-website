@@ -27,7 +27,7 @@ export default function Contacts({
 
   return (
     <section className="bg-darkBg rounded-[8px] h-[430px] max-w-[400px] xl:w-[402px] overflow-hidden">
-      <div className="py-[30px] px-[60px] z-50 circle relative">
+      <div className="py-[30px] px-[60px] circle relative">
         <p className="relative z-50 text-[16px] leading-[20px] tracking-[0.24px] xl:boldText text-lightTextColor font-bold mb-[14px]">
           Department name.
           <br /> {name}

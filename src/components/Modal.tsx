@@ -10,7 +10,7 @@ export default function Modal({ onClick, value }: modalProps) {
   const [copied, setCopied] = useState(false);
 
   return (
-    <div className="modal">
+    <div className="modal z-[100]">
       <div className="flex justify-between border-b-[1px] mb-[10px]">
         <h2 className="largeBoldtext">Share</h2>
         <button onClick={onClick}>

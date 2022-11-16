@@ -94,6 +94,6 @@
     @apply relative overflow-hidden max-w-[700px]
   }
   .circle::before {
-    @apply absolute top-[-30px] left-[-100px] content-[''] w-[273px] h-[273px] rounded-[50%] bg-[#202336] z-[1] hidden xl:block
+    @apply absolute top-[-30px] left-[-100px] content-[''] w-[273px] h-[273px] rounded-[50%] bg-[#202336] hidden xl:block
   }
 }
