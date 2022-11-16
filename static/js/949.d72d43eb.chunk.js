@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkjobs_test_task=self.webpackChunkjobs_test_task||[]).push([[949],{949:function(e,s,t){t.r(s),t.d(s,{default:function(){return c}});var n=t(184);function c(){return(0,n.jsxs)("div",{className:"h-[100vh] flex flex-col justify-center items-center",children:[(0,n.jsx)("p",{className:"font-bold text-[75px]",children:"404"}),(0,n.jsx)("p",{className:"text-[35px]",children:"The page you are looking for does not exist :("})]})}}}]);
+//# sourceMappingURL=949.d72d43eb.chunk.js.map
