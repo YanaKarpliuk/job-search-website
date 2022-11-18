@@ -53,6 +53,7 @@ export default function CardItem({
           <img
             className=" h-[66px] min-w-[66px] xl:h-[85px] xl:min-w-[85px] rounded-[50%]"
             src={`${picture[0]}?random=${id}`}
+            alt='main illustration'
           />
           <div className="ml-[19px] xl:ml-[26px]">
             <h3 className="smallNormalTextTwo s:normalText xl:boldText text-darkText mb-[5px] xl:mb-[8px]">

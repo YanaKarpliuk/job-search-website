@@ -1,8 +1,5 @@
 import locationTag from "../images/location.svg";
-import { apply } from "ol-mapbox-style";
-import { stylefunction } from "ol-mapbox-style";
-import { useEffect, useState } from "react";
-import axios from "axios";
+import { useState } from "react";
 
 type ContactsProps = {
   name: string;
@@ -56,7 +53,9 @@ export default function Contacts({
       </div>
       <div className="flex justify-center items-center w-[100%]">
         <img src={mapUrl} onLoad={() => setLoading(false)} alt="map" />
-        {loading && <p className="normalText text-white p-[30px]">Map is loading...</p>}
+        {loading && (
+          <p className="normalText text-white p-[30px]">Map is loading...</p>
+        )}
       </div>
     </section>
   );

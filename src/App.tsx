@@ -1,4 +1,3 @@
-import React from "react";
 import axios from "axios";
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import Loader from "./components/Loader";

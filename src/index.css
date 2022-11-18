@@ -3,11 +3,6 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap");
 
-/* @font-face {
-  font-family: 'Proxima Nova Rg';
-  src: url('font/ProximaNova-Regular.ttf');
-} */
-
 @layer components {
   .smallLightLext {
     @apply font-light text-[13px] leading-[25px] tracking-[0.19px];

@@ -4,7 +4,6 @@ type SaveToMyListProps = {
   imageColor: string;
   text: string;
   mrImage: string;
-  mrBtn?: string;
   onClick: (type: string) => void;
   favorite: boolean;
 };
@@ -15,15 +14,11 @@ export default function SaveToMyList({
   imageColor,
   text,
   mrImage,
-  mrBtn,
   onClick,
   favorite,
 }: SaveToMyListProps) {
   return (
-    <button
-      onClick={() => onClick(id)}
-      className="flex items-center"
-    >
+    <button onClick={() => onClick(id)} className="flex items-center">
       {favorite ? (
         <img
           className={`mr-[${mrImage}] h-[25px]`}

@@ -1,6 +1,5 @@
 import star from "../images/star.svg";
 import starColor from "../images/star-colored.svg";
-import share from "../images/share.svg";
 import bookmark from "../images/bookmark.svg";
 import bookmarkColor from "../images/bookmark-colored.svg";
 import arrow from "../images/Arrow.svg";
@@ -12,7 +11,7 @@ import Contacts from "../components/Contacts";
 import Modal from "../components/Modal";
 import Share from "../components/Share";
 import Title from "../components/Title";
-import { Link, useParams, useLocation } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useState } from "react";
 
 type JobDetailsProps = {
@@ -43,7 +42,6 @@ export default function JobDetails({
   favorites,
   handleSaveToLS,
 }: JobDetailsProps) {
-  const searchParams = useLocation();
 
   const [openModal, setOpenModal] = useState(false);
   const [urlValue, setUrlValue] = useState(window.location.href);
@@ -53,7 +51,7 @@ export default function JobDetails({
   const job = jobData.find((item) => item.id === id);
 
   if (!job) {
-    return null
+    return null;
   }
 
   function onModalClick() {
