@@ -10,7 +10,7 @@
 
 @layer components {
   .smallLightLext {
-    @apply font-light text-[13px] leading-[25px] tracking-[0.19px]
+    @apply font-light text-[13px] leading-[25px] tracking-[0.19px];
   }
   .lightText {
     @apply font-light text-[14px] leading-[17px] tracking-[0.21px];
@@ -25,7 +25,7 @@
     @apply text-[18px] leading-[24px] tracking-[-0.56px];
   }
   .semiBoldSmallText {
-    @apply text-[12px] leading-[16px] font-semibold
+    @apply text-[12px] leading-[16px] font-semibold;
   }
   .smallBoldText {
     @apply font-bold text-[16px] leading-[20px] tracking-[1.33px];
@@ -67,33 +67,43 @@
     @apply xl:bg-white xl:rounded-[8px] xl:py-[24px] xl:h-[164px];
   }
   .applyBtn {
-    @apply transitionClass bg-btnBg hover:bg-darkBg text-white semiBoldSmallText py-[18px] px-[30px] rounded-[8px]
+    @apply transitionClass bg-btnBg hover:bg-darkBg text-white semiBoldSmallText py-[18px] px-[30px] rounded-[8px];
   }
   .returnBtn {
-    @apply transitionClass hidden xl:flex bg-lightBtnBg hover:bg-lightGrayText py-[18px] w-[213px] rounded-[8px] justify-center items-center
+    @apply transitionClass hidden xl:flex bg-lightBtnBg hover:bg-lightGrayText py-[18px] w-[213px] rounded-[8px] justify-center items-center;
   }
   .transitionClass {
-    @apply transition ease-in-out delay-[50ms]
+    @apply transition ease-in-out delay-[50ms];
   }
   .modal {
-    @apply absolute top-[12%] xl:top-[10%] xl:left-[50%] bg-white drop-shadow-2xl rounded-[8px] p-[20px] pt-[10px] w-[400px] h-[155px]
+    @apply absolute top-[12%] xl:top-[10%] xl:left-[50%] bg-white drop-shadow-2xl rounded-[8px] p-[20px] pt-[10px] w-[400px] h-[155px];
   }
   .pagination {
-    @apply max-w-[515px] mx-auto mt-[26px] xl:mt-[49px] pt-[9px] pb-[2px] smallBoldText text-lightGrayText rounded-[9px] flex justify-center bg-white drop-shadow-2xl
+    @apply max-w-[515px] xl:w-[515px] mx-auto mt-[26px] xl:mt-[49px] pt-[9px] smallBoldText text-lightGrayText rounded-[9px] flex justify-center bg-white drop-shadow-2xl;
   }
   .pagination * {
-    @apply mx-[3px] pb-[7px]
+    @apply mx-[2px] pb-[5px] px-[2px];
   }
   .pagination .next {
-    @apply text-white xl:text-lightGrayText border-l-[1px] border-grayBorderColor ml-[42px] xl:ml-[55px] pl-[27px] 
+    @apply text-white xl:text-lightGrayText border-l-[1px] border-grayBorderColor ml-[42px] xl:ml-[55px] pl-[27px];
   }
   .pagination .previous {
-    @apply text-white xl:text-lightGrayText border-r-[1px] border-grayBorderColor mr-[42px] xl:mr-[55px] pr-[27px] 
+    @apply text-white xl:text-lightGrayText border-r-[1px] border-grayBorderColor mr-[42px] xl:mr-[55px] pr-[27px];
   }
   .circle {
-    @apply relative overflow-hidden max-w-[700px]
+    @apply relative overflow-hidden max-w-[700px];
   }
   .circle::before {
-    @apply absolute top-[-30px] left-[-100px] content-[''] w-[273px] h-[273px] rounded-[50%] bg-[#202336] hidden xl:block
+    @apply absolute top-[-30px] left-[-100px] content-[''] w-[273px] h-[273px] rounded-[50%] bg-[#202336] hidden xl:block;
+  }
+  @font-face {
+    font-family: "Proxima Nova Rg";
+    src: url("./fonts/ProximaNova-Regular.eot");
+    src: local("Proxima Nova Regular"), local("ProximaNova-Regular"),
+      url("./fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"),
+      url("./fonts/ProximaNova-Regular.woff") format("woff"),
+      url("./fonts/ProximaNova-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
   }
 }

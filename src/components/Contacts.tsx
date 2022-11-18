@@ -23,6 +23,8 @@ export default function Contacts({
   const latitude = String(location.lat);
   const longitude = String(location.long);
 
+  const [loading, setLoading] = useState(true);
+
   const mapUrl = `https://maps.geoapify.com/v1/staticmap?style=dark-matter-brown&height=800&zoom=3&center=lonlat:${longitude},${latitude}&apiKey=${API_KEY}`;
 
   return (
@@ -44,12 +46,18 @@ export default function Contacts({
           <a className="relative z-50 block" href="tel:+430140400-12090">
             {phone}
           </a>
-          <a className="relative z-50 block" href="mailto:post_akh_diz@akhwien.at">
+          <a
+            className="relative z-50 block"
+            href="mailto:post_akh_diz@akhwien.at"
+          >
             {email}
           </a>
         </address>
       </div>
-      <img className="overflow-hidden" src={mapUrl} />
+      <div className="flex justify-center items-center w-[100%]">
+        <img src={mapUrl} onLoad={() => setLoading(false)} alt="map" />
+        {loading && <p className="normalText text-white p-[30px]">Map is loading...</p>}
+      </div>
     </section>
   );
 }

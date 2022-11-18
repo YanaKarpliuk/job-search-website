@@ -1,6 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  // plugins: [
+  //   plugin(function({addBase, theme}) {
+  //     addBase({
+  //       'body': {FontFace: theme('Proxima Nova')}
+  //     })
+  //   })
+  // ],
   theme: {
     extend: {
       colors: {
@@ -24,7 +31,7 @@ module.exports = {
         grayBorderColor: 'rgba(56, 65, 93, 0.0513276)'
       },
       fontFamily: {
-        display: ["Nunito Sans"],
+        display: ["Proxima Nova Rg"],
       },
       maxWidth: {
         maxWList: "1400px",

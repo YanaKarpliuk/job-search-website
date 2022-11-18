@@ -33,15 +33,11 @@ export default function JobList({
   const [itemOffset, setItemOffset] = useState(0);
 
   const endOffset = itemOffset + itemsPerPage;
-  console.log(`Loading items from ${itemOffset} to ${endOffset}`);
   const currentItems = jobData.slice(itemOffset, endOffset);
   const pageCount = Math.ceil(jobData.length / itemsPerPage);
 
   const handlePageClick = (event: any) => {
     const newOffset = (event.selected * itemsPerPage) % jobData.length;
-    console.log(
-      `User requested page number ${event.selected}, which is offset ${newOffset}`
-    );
     setItemOffset(newOffset);
   };
 
@@ -71,7 +67,7 @@ export default function JobList({
           pageCount={pageCount}
           previousLabel="<"
           className="pagination"
-          activeClassName="text-blueText border-b-[1px] border-blueText"
+          activeClassName="text-blueText border-b-[2px] border-blueText"
         />
       </ul>
     </>

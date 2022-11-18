@@ -20,7 +20,10 @@ export default function SaveToMyList({
   favorite,
 }: SaveToMyListProps) {
   return (
-    <button onClick={() => onClick(id)} className={`flex items-center transitionClass hover:scale-110`}>
+    <button
+      onClick={() => onClick(id)}
+      className="flex items-center"
+    >
       {favorite ? (
         <img
           className={`mr-[${mrImage}] h-[25px]`}

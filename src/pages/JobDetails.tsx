@@ -53,7 +53,7 @@ export default function JobDetails({
   const job = jobData.find((item) => item.id === id);
 
   if (!job) {
-    return <p>Not found</p>;
+    return null
   }
 
   function onModalClick() {
