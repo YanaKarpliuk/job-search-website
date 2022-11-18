@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/job-search-website/static/css/main.6dfbdfaa.css",
-    "main.js": "/job-search-website/static/js/main.9beeff7d.js",
-    "static/js/135.2a4debf7.chunk.js": "/job-search-website/static/js/135.2a4debf7.chunk.js",
-    "static/js/2.070ed885.chunk.js": "/job-search-website/static/js/2.070ed885.chunk.js",
+    "main.css": "/job-search-website/static/css/main.6ccb7f96.css",
+    "main.js": "/job-search-website/static/js/main.c5214331.js",
+    "static/js/135.5f73be64.chunk.js": "/job-search-website/static/js/135.5f73be64.chunk.js",
+    "static/js/2.66c7cda2.chunk.js": "/job-search-website/static/js/2.66c7cda2.chunk.js",
     "static/js/949.d72d43eb.chunk.js": "/job-search-website/static/js/949.d72d43eb.chunk.js",
     "static/js/426.73be82b4.chunk.js": "/job-search-website/static/js/426.73be82b4.chunk.js",
+    "static/media/ProximaNova-Regular.eot": "/job-search-website/static/media/ProximaNova-Regular.d97f8f32c098b28c3ab0.eot",
+    "static/media/ProximaNova-Regular.ttf": "/job-search-website/static/media/ProximaNova-Regular.b078618b41b9b6629ea0.ttf",
+    "static/media/ProximaNova-Regular.woff": "/job-search-website/static/media/ProximaNova-Regular.99528640efded3e12591.woff",
     "static/media/share.svg": "/job-search-website/static/media/share.14f9ee50b9d134666b10f63dc344ff6b.svg",
     "index.html": "/job-search-website/index.html",
     "static/media/Arrow.svg": "/job-search-website/static/media/Arrow.81b0f26cb6486aa14408fc44c9104536.svg",
@@ -15,15 +18,15 @@
     "static/media/bookmark-colored.svg": "/job-search-website/static/media/bookmark-colored.7db0a5d61e532619e82ec116cda599f5.svg",
     "static/media/star-colored.svg": "/job-search-website/static/media/star-colored.889dcbc0b176c4bbd8952e0eaaf630eb.svg",
     "static/media/carbon_close.svg": "/job-search-website/static/media/carbon_close.dbebf11ed721c90f7c3c4d0e42c61287.svg",
-    "main.6dfbdfaa.css.map": "/job-search-website/static/css/main.6dfbdfaa.css.map",
-    "main.9beeff7d.js.map": "/job-search-website/static/js/main.9beeff7d.js.map",
-    "135.2a4debf7.chunk.js.map": "/job-search-website/static/js/135.2a4debf7.chunk.js.map",
-    "2.070ed885.chunk.js.map": "/job-search-website/static/js/2.070ed885.chunk.js.map",
+    "main.6ccb7f96.css.map": "/job-search-website/static/css/main.6ccb7f96.css.map",
+    "main.c5214331.js.map": "/job-search-website/static/js/main.c5214331.js.map",
+    "135.5f73be64.chunk.js.map": "/job-search-website/static/js/135.5f73be64.chunk.js.map",
+    "2.66c7cda2.chunk.js.map": "/job-search-website/static/js/2.66c7cda2.chunk.js.map",
     "949.d72d43eb.chunk.js.map": "/job-search-website/static/js/949.d72d43eb.chunk.js.map",
     "426.73be82b4.chunk.js.map": "/job-search-website/static/js/426.73be82b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dfbdfaa.css",
-    "static/js/main.9beeff7d.js"
+    "static/css/main.6ccb7f96.css",
+    "static/js/main.c5214331.js"
   ]
 }
