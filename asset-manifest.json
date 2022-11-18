@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/job-search-website/static/css/main.1e184b84.css",
-    "main.js": "/job-search-website/static/js/main.07846152.js",
-    "static/js/135.a66f8cde.chunk.js": "/job-search-website/static/js/135.a66f8cde.chunk.js",
-    "static/js/2.66c7cda2.chunk.js": "/job-search-website/static/js/2.66c7cda2.chunk.js",
+    "main.js": "/job-search-website/static/js/main.9f2fff97.js",
+    "static/js/135.cdd37888.chunk.js": "/job-search-website/static/js/135.cdd37888.chunk.js",
+    "static/js/2.0b091a9a.chunk.js": "/job-search-website/static/js/2.0b091a9a.chunk.js",
     "static/js/949.d72d43eb.chunk.js": "/job-search-website/static/js/949.d72d43eb.chunk.js",
     "static/js/426.73be82b4.chunk.js": "/job-search-website/static/js/426.73be82b4.chunk.js",
     "static/media/ProximaNova-Regular.eot": "/job-search-website/static/media/ProximaNova-Regular.d97f8f32c098b28c3ab0.eot",
@@ -19,14 +19,14 @@
     "static/media/star-colored.svg": "/job-search-website/static/media/star-colored.889dcbc0b176c4bbd8952e0eaaf630eb.svg",
     "static/media/carbon_close.svg": "/job-search-website/static/media/carbon_close.dbebf11ed721c90f7c3c4d0e42c61287.svg",
     "main.1e184b84.css.map": "/job-search-website/static/css/main.1e184b84.css.map",
-    "main.07846152.js.map": "/job-search-website/static/js/main.07846152.js.map",
-    "135.a66f8cde.chunk.js.map": "/job-search-website/static/js/135.a66f8cde.chunk.js.map",
-    "2.66c7cda2.chunk.js.map": "/job-search-website/static/js/2.66c7cda2.chunk.js.map",
+    "main.9f2fff97.js.map": "/job-search-website/static/js/main.9f2fff97.js.map",
+    "135.cdd37888.chunk.js.map": "/job-search-website/static/js/135.cdd37888.chunk.js.map",
+    "2.0b091a9a.chunk.js.map": "/job-search-website/static/js/2.0b091a9a.chunk.js.map",
     "949.d72d43eb.chunk.js.map": "/job-search-website/static/js/949.d72d43eb.chunk.js.map",
     "426.73be82b4.chunk.js.map": "/job-search-website/static/js/426.73be82b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e184b84.css",
-    "static/js/main.07846152.js"
+    "static/js/main.9f2fff97.js"
   ]
 }
