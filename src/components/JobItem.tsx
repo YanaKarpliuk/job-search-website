@@ -49,7 +49,7 @@ export default function CardItem({
           </div>
         </div>
 
-        <Link to={`details/${id}`} className="flex">
+        <Link to={`details/${id}`} className="flex w-[80%]">
           <img
             className=" h-[66px] min-w-[66px] xl:h-[85px] xl:min-w-[85px] rounded-[50%]"
             src={`${picture[0]}?random=${id}`}
